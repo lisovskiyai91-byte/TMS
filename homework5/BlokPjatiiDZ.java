@@ -1,4 +1,4 @@
-package TMS.homework5;
+package TMSnew.homework5;
 
 import java.util.Scanner;
 
