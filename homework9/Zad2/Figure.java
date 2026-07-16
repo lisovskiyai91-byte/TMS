@@ -12,7 +12,8 @@ public class Figure {
     public static void main(String[] args) {
         Shape[] shapes = {
                 new Circle(5),
-                new Triangle(4,6,7), new Rectangle(2,6), new Circle(3), new Rectangle(3,6)
+                new Triangle(4,6,7), new Rectangle(2,6), new Circle(3),
+                new Rectangle(3,6)
         };
         double sum = 0;
         for (Shape shape: shapes){
