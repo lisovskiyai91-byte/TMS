@@ -17,7 +17,7 @@ public class Main {
         System.out.print("Введите строку: ");
         String text = scanner.nextLine();
 
-        Pattern pattern = Pattern.compile("\\p{Lu}{2,6}");
+        Pattern pattern = Pattern.compile("(?<![\\p{L}\\d])\\p{Lu}{2,6}(?![\\p{L}\\d])");
         Matcher matcher = pattern.matcher(text);
 
         while (matcher.find()) {
