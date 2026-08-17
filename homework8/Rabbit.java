@@ -1,4 +1,4 @@
-package DZ8;
+package TMSnew.homework7.TMS.homework8;
 
 public class Rabbit extends Animal {
     @Override
@@ -7,10 +7,10 @@ public class Rabbit extends Animal {
     }
         @Override
     public void eat(String food) {
-        if (food.equals("meat")){
-            System.out.println("Кролик недоволен. Он не любит " + food + ".");
-        } else {
+        if ("grass".equals(food)){
             System.out.println("Кролик любит есть травку. ");
+        } else {
+            System.out.println("Кролик недоволен. Он не любит " + food + ".");
         }
 
     }

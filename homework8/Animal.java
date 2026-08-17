@@ -1,4 +1,4 @@
-package DZ8;
+package TMSnew.homework7.TMS.homework8;
 
 public class Animal {
     public void voice(){

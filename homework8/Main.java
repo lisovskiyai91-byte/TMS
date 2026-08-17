@@ -9,7 +9,7 @@
  * или другую строку то он будет недоволен
  */
 
-package DZ8;
+package TMSnew.homework7.TMS.homework8;
 
 public class Main {
     public static void main(String[] args) {
