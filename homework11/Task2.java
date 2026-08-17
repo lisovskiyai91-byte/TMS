@@ -15,7 +15,7 @@ public class Task2 {
             strings[i] = scanner.nextLine();
         }
         for (int i = 0; i < strings.length-1; i++) {
-            for (int j = 0; j < strings.length; j++) {
+            for (int j = i+1; j < strings.length; j++) {
                 if (strings[i].length() > strings[j].length()) {
                     String tmp = strings[i];
                     strings[i] = strings[j];
